@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-embedded-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Embedded Problems</title>
+
+  <p> We can embed interactives from Desmos and GeoGebra into PreTeXt. </p>
+
+
+  <figure xml:id="figure-geogebra-tattoo-simulation">
+    <caption>Exponential Distribution (Made in GeoGebra by Steve Phelps)</caption>
+    <interactive xml:id="geogebra-tattoo-simulation" geogebra="ava6qwmr" aspect="9:5" />
+  </figure>
+
+
+  <figure xml:id="figure-dollar">
+    <caption>Exponential Distribution (Made in GeoGebra by John Ulbright)</caption>
+    <interactive xml:id="geogebra-dollar" geogebra="zwd4hp7c" aspect="9:5" />
+  </figure>
+
+
+  <figure>
+    <caption>Tangent Line powered by Desmos</caption>
+    <interactive xml:id="desmos-tangent" desmos="fs3lx8gptb" aspect="4:3" />
+  </figure>
+
+
+</section>
+
+

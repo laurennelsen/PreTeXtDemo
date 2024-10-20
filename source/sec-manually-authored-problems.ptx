@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-manually-authored-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Manually-Authored Problems</title>
+
+  <p> In this section we'll examples of manually-authored problems in PreTeXt. </p>
+
+ 
+    <exercise>
+      <title>Algebra Practice</title>
+      <statement><p>Solve the equation <m>x^2-x+2=0</m> for <m>x</m>.</p></statement>
+      <hint><p>Try factoring the left-hand side of the equation.</p></hint>
+      <answer><p><m>x=-1,\; x=2</m></p></answer>
+      <solution><p><m>(x+1)(x-2)=0\Rightarrow x=-1,\; x=2</m></p></solution>
+  </exercise>
+
+
+</section>

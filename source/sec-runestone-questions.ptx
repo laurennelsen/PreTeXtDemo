@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-runestone-questions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Runestone-Powered Questions</title>
+
+  <p> Text of section. </p>
+
+  <exercise xml:id="ex-true-false" label="true-false">
+    <title>Runestone-powered True/False Question</title>
+    <statement correct="yes">
+    <p>
+        UCCS was founded in 1965.
+    </p>
+    </statement>
+    <feedback>
+    <p>
+        Oops, try again!
+    </p>
+    </feedback>
+</exercise>
+
+
+<exercise label="some-matching">
+    <title>Runestone-powered Multiple Choice Problem</title>
+    <statement>
+    <p>
+        Which of the following are mascots for a University of Colorado campus?
+    </p>
+    </statement>
+    <choices randomize="yes">
+
+        <choice correct="yes">
+
+            <statement>
+                Clyde the Mountain Lion
+            </statement>
+
+        </choice>
+
+        <choice correct="yes">
+
+            <statement>
+                Milo the Lynx
+            </statement>
+
+        </choice>
+
+        <choice correct="yes">
+
+            <statement>
+                Chip the Buffalo
+            </statement>
+
+        </choice>
+
+        <choice correct="yes">
+
+            <statement>
+                Roger the Rhinocerous
+            </statement>
+
+        </choice>
+
+        <choice correct="yes">
+
+            <statement>
+                Tomato the Turtle
+            </statement>
+
+        </choice>
+
+    </choices>
+    </exercise>
+
+
+    <exercise label="parsons-problem">
+        <title>Runestone-powered Parsons Problem</title>
+        
+        
+        <statement>
+            <p>
+                The following program should figure out the cost per person for a dinner including the tip. But the blocks have been mixed up. Drag the blocks from the left and put them in the correct order on the right. Click the Check Me button to check your solution.
+            </p>
+        </statement>
+
+        <blocks randomize="yes">  
+    
+    
+            <block order="1">
+                <p>
+                    bill = 89.23
+                </p>
+            </block>
+            <block order="2">
+                <p>
+                    tip = bill * 0.20
+                </p>
+            </block>
+            <block order="3">
+                <p>
+                    total = bill + tip
+                </p>
+            </block>
+            <block order="4">
+                <p>
+                    numPeople = 3
+                    perPersonCost = total / numPeople
+                </p>
+            </block>
+            <block order="5">
+                <p>
+                    print(perPersonCost)
+                </p>
+            </block>
+            </blocks>
+
+    </exercise>
+
+
+
+
+    <exercise label="matching">
+        <title>Runestone-powered Matching Problem</title>
+        <statement>
+        <p>
+            Match the letters with their order in the alphabet
+        </p>
+        </statement>
+        <matches>
+        <match>
+            <premise>
+            A
+            </premise>
+            <response>
+            1
+            </response>
+        </match>
+        <match>
+            <premise>
+            B
+            </premise>
+            <response>
+            2
+            </response>
+        </match>
+        <match>
+            <premise>
+            C
+            </premise>
+            <response>
+            3
+            </response>
+        </match>
+        </matches>
+    </exercise>
+
+
+</section>

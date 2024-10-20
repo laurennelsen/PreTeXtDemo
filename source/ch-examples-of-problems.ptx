@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-examples-of-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples of Problems</title>
+
+  <introduction>
+    <p> Below are a few different types of problems we can create in a PreTeXt document. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-manually-authored-problems.ptx" />
+  <xi:include href="sec-embedded-problems.ptx" />
+  <xi:include href="sec-runestone-questions.ptx"  />
+
+</chapter>
