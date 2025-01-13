@@ -3,7 +3,7 @@
 <section xml:id="sec-manually-authored-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Manually-Authored Problems</title>
 
-  <p> In this section we'll examples of manually-authored problems in PreTeXt. </p>
+  <p> In this section we'll see examples of manually-authored problems in PreTeXt. </p>
 
  
     <exercise>
@@ -13,6 +13,38 @@
       <answer><p><m>x=-1,\; x=2</m></p></answer>
       <solution><p><m>(x+1)(x-2)=0\Rightarrow x=-1,\; x=2</m></p></solution>
   </exercise>
+
+
+<p>
+  You can also include exercises at the end of a section.
+</p>
+
+<exercises xml:id="exercises-manually-authored">
+  
+<exercise>
+  <p>
+    Why are dogs amazing?
+  </p>
+  <answer>
+    <p>
+      So many reasons
+    </p>
+  </answer>
+</exercise>
+
+
+<exercise>
+  <p>
+    What is the only U.S. state to turn down hosting the Olympics after being awarded the bid?
+  </p>
+  <answer>
+    <p>
+      Colorado! <fn><url href="https://sports.yahoo.com/fun-fact-denver-only-city-183540052.html" /></fn>
+    </p>
+  </answer>
+</exercise>
+
+</exercises>
 
 
 </section>

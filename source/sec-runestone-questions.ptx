@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-runestone-questions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Runestone-Powered Questions</title>
+  <title>Interactive Questions</title>
 
   <p> Text of section. </p>
 
   <exercise xml:id="ex-true-false" label="true-false">
-    <title>Runestone-powered True/False Question</title>
+    <title>True/False Question</title>
     <statement correct="yes">
     <p>
         UCCS was founded in 1965.
     </p>
     </statement>
-    <feedback>
-    <p>
-        Oops, try again!
-    </p>
-    </feedback>
+   
 </exercise>
 
 
 <exercise label="some-matching">
-    <title>Runestone-powered Multiple Choice Problem</title>
+    <title>Multiple Choice Problem</title>
     <statement>
     <p>
         Which of the following are mascots for a University of Colorado campus?
@@ -53,7 +49,7 @@
 
         </choice>
 
-        <choice correct="yes">
+        <choice correct="no">
 
             <statement>
                 Roger the Rhinocerous
@@ -61,10 +57,18 @@
 
         </choice>
 
-        <choice correct="yes">
+        <choice correct="no">
 
             <statement>
                 Tomato the Turtle
+            </statement>
+
+        </choice>
+
+        <choice correct="no">
+
+            <statement>
+                Chad the Rad Radish
             </statement>
 
         </choice>
@@ -74,7 +78,7 @@
 
 
     <exercise label="parsons-problem">
-        <title>Runestone-powered Parsons Problem</title>
+        <title>Parsons Problem</title>
         
         
         <statement>
@@ -104,7 +108,8 @@
             <block order="4">
                 <p>
                     numPeople = 3
-                    perPersonCost = total / numPeople
+                    </p>
+<p>                    perPersonCost = total / numPeople
                 </p>
             </block>
             <block order="5">
@@ -119,40 +124,68 @@
 
 
 
-    <exercise label="matching">
-        <title>Runestone-powered Matching Problem</title>
-        <statement>
-        <p>
-            Match the letters with their order in the alphabet
-        </p>
-        </statement>
-        <matches>
-        <match>
-            <premise>
-            A
-            </premise>
-            <response>
-            1
-            </response>
-        </match>
-        <match>
-            <premise>
-            B
-            </premise>
-            <response>
-            2
-            </response>
-        </match>
-        <match>
-            <premise>
-            C
-            </premise>
-            <response>
-            3
-            </response>
-        </match>
-        </matches>
-    </exercise>
+    <exercise label="matching-dates">
+  <title>Matching Problem, Dates</title>
+  <idx>matching US dates</idx>
+  <statement>
+    <p>
+      Match each event with the year it happened.
+    </p>
+  </statement>
+  <feedback>
+    <p>
+      Review
+      <url href="https://www.uccs.edu/about/history">UCCS Campus Timeline</url>.
+    </p>
+  </feedback>
+  <matches>
+  
+  
+  <match order="1">
+  <premise>Governor Love allows the University of Colorado to assume Cragmor Sanatorium property</premise>
+  <response>1964</response>
+  </match>
+  <match order="2">
+  <premise>The first student graduated from UCCS</premise>
+  <response>1966</response>
+  </match>
+  <match order="3">
+  <premise>First Child Day Care Center on UCCS campus.
+</premise>
+  <response>1977</response>
+  </match>
+  <match order="4">
+  <premise>First Ph.D. degrees awarded
+</premise>
+  <response>1988</response>
+  </match>
+  </matches>
+</exercise>
+
+
+
+<exercise label="clickable-text">
+  <title>Clickable Areas,
+  <q>Regular</q>
+  Text</title>
+  <statement>
+    <p>
+      Identify (by clicking,
+      or by circling) all of the nouns in this quotation by Eleanor Roosevelt.
+    </p>
+  </statement>
+  <areas>
+  <p>
+    <q>The <area>future</area> belongs to <area correct="no">those</area> who believe in the <area correct="yes">beauty</area> of <area correct="no">their</area> <area>dreams</area>.</q>
+  </p>
+  </areas>
+  <feedback>
+    <p>
+      The incorrect words are pronouns.
+    </p>
+  </feedback>
+</exercise>
+
 
 
 </section>
