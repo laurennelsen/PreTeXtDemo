@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-embedded-problems" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Embedded Problems</title>
+  <title>Embedded Problems and Videos</title>
 
-  <p> We can embed interactives from Desmos and GeoGebra into PreTeXt. </p>
+  <p> We can embed interactives from Desmos and GeoGebra into PreTeXt, as well as videos. </p>
 
 
 
@@ -83,6 +83,14 @@ Does this simulation indicate that the device is effective in sensing the presen
 
 
   </exercise>
+
+
+  <figure>
+  <title>University of Colorado Colorado Springs</title>
+  <caption>Students share reasons for choosing UCCS </caption>
+  <video xml:id="UCCS-2016" youtube="vA8kgwqBCAI" />
+</figure>
+
 
 
 

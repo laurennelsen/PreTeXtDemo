@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-definitions-theorems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Definitions, Theorems, and Problems</title>
+
+
+
+ 
+<definition xml:id="def-range">
+    <statement>
+        <p>
+            The variance (<m>\sigma^2</m> or <m>s^2</m>) measures the variability, or spread, of the data points in a set around the set’s mean
+        </p>
+        <me>
+            s^2=\frac{\sum (x_i-\overline{x})^2}{n-1}
+        </me>
+        <p>
+           <me>\boxed{ \text{In Excel:
+                 VAR.S} }
+            </me>
+            
+        </p>
+    </statement>
+</definition>
+
+<example>
+    <figure>
+<caption>
+    Standard Deviation and Variance (Made in GeoGebra by Ben Roth)</caption>    
+      <interactive platform="geogebra" aspect="9:5">
+        <slate xml:id="geogebra-stdev-variance" surface="geogebra" material="ephgg4yv" material-width="1500" material-height="500"/>
+        </interactive>
+
+  </figure>
+</example>
+
+<exercise>
+    <p>
+        Find the sample variance for the effective tax rates in the file below.
+    </p>
+    <p>
+         <url href="external/sheets/PropertyyTaxesUS2023.xlsx" />
+
+    </p>
+</exercise>
+
+
+<theorem xml:id="thm-pythagorean-theorem">
+    <statement>
+        <p>
+        In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides (<m>a^2+b^2=c^2</m>)
+
+        </p>
+    </statement>
+</theorem>
+
+
+<proof>
+    <p>
+         <figure>
+<caption>
+    Pythagorean Theorem Proof Without Words
+ (Made in GeoGebra by Steve Phelps)</caption>    
+      <interactive xml:id="geogebra-pythag-theorem" geogebra="t62trhhz" aspect="9:8" />
+
+  </figure>
+    </p>
+</proof>
+
+
+
+</section>
+
+

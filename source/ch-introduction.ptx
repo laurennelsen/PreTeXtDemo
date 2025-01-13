@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+
+  <introduction>
+    <p> Below are a few things you might want to include in your document. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-definitions-theorems.ptx" />
+
+</chapter>
