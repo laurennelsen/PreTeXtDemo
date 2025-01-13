@@ -34,7 +34,7 @@
 
 <figure>
     <caption>Contour Plot powered by Desmos</caption>
-    <interactive xml:id="desmos-contour" desmos="wtntpzuyil" aspect="4:3" />
+    <interactive xml:id="desmos-contour" desmos="fb3njrf7rq" aspect="4:3" />
   </figure>
 
 <!--  <figure>
@@ -46,7 +46,7 @@
   <figure>
 <caption>
     Fraction Division (Made in GeoGebra by Steve Phelps)</caption>    
-      <interactive xml:id="geogebra-dividing-by-fraction" geogebra="tu47hfhq" aspect="10:5" />
+      <interactive xml:id="geogebra-dividing-by-fraction" geogebra="tu47hfhq" aspect="10:8" />
 
   </figure>
 
